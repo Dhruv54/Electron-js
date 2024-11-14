@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Frame Processor</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h2>Video to MRD Converter</h2>
+            <input type="file" id="videoInput" accept=".mp4" />
+            <button id="convertBtn">Convert to MRD</button>
+        </div>
+
+        <div class="section">
+            <h2>MRD Player</h2>
+            <input type="file" id="mrdInput" accept=".mrd" />
+            <div id="frameViewer">
+                <canvas id="frameCanvas"></canvas>
+                <div class="controls">
+                    <button id="prevFrame">Previous Frame</button>
+                    <button id="nextFrame">Next Frame</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./src/videoProcessor.js"></script>
+    <script src="./src/videoPlayer.js"></script>
+</body>
+</html>

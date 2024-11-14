@@ -1,0 +1,21 @@
+{
+  "name": "decode-display-custom",
+  "version": "1.0.0",
+  "description": "custom decode display",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "decode"
+  ],
+  "author": "Dhruv",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^33.2.0"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}
